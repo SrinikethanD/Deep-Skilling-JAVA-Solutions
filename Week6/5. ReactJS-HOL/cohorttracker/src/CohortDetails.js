@@ -1,8 +1,11 @@
+import styles from './CohortDetails.module.css';
 
 function CohortDetails(props) {
+    console.log("Status:", props.cohort.status);
     return (
-        <div>
-            <h3>
+        <div className={styles.box}>
+            <h3 style={{color: props.cohort.currentStatus=== 'Ongoing' ? 'green': 'blue' }}>
+
                 {props.cohort.cohortCode} -
                 <span>{props.cohort.technology}</span>
             </h3>
