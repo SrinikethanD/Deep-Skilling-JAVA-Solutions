@@ -1,0 +1,103 @@
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.view-toggles {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.view-toggles label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.st2, .v1, .mystyle1 {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.divider {
+  width: 2px;
+  background-color: #ddd;
+  margin: 0 20px;
+  align-self: stretch;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-item:hover {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+h4 {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-prompt {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin: 20px 0;
+}
